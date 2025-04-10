@@ -33,7 +33,7 @@ public class PalmerPenguinsDB
                 stmt.executeUpdate("USE " + DB_NAME);
     
                 // Create table
-                // add your code here
+                // *** add your code here
                 
                 
                 stmt.executeUpdate(createTable);
@@ -63,7 +63,8 @@ public class PalmerPenguinsDB
     
                 // Query and print results using try-with-resources
                 try (ResultSet rs = stmt.executeQuery("SELECT * FROM Penguin")) {
-                    // add your code here
+                    // *** add your code here
+
                 }
     
                 // Drop the table
